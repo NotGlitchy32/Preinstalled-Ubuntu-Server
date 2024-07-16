@@ -1,0 +1,32 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2024-07-15T21:01:59+06:30",
+    "name": "Qemu",
+    "author": "xenodusk@outlook.com",
+    "description": "Egg configuration for running QEMU virtual machines.",
+    "features": null,
+    "docker_images": {
+        "local-qemu-ubuntu": "local-qemu-ubuntu"
+    },
+    "file_denylist": [],
+    "startup": "\/home\/container\/scripts\/start_qemu.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "debian:buster-slim",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": []
+}
+
